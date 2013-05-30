@@ -1,0 +1,71 @@
+
+            <!-- START default Text_and_Images Image_Behind -->
+            <div id="background">
+                
+                <div id="image" class="editable edit-image edit-image-always-show-placeholder edit-resize edit-resize-height edit-inset">
+
+                    <div id="text_intro" class="editable edit-animation edit-resize edit-move edit-color edit-font-size edit-border">
+                        <div id="text_content" class="editable edit-html">
+                            <p>This questionnaire template allows you to assess how the learner is getting on.</p>
+                        </div>
+                    </div>
+
+                    <form class="questionnaire">
+                        <div id="questionnaire_wrapper" class="editable edit-resize editable-add-option">
+
+                            <div class="edit-add-option-template hide">
+                                <div id="answer_{number}" class="answer edit-answer editable edit-animation edit-delete edit-resize edit-move edit-color edit-font-size edit-border text_box">
+                                    <span class="input">radio:answer</span>
+                                    <label class="editable edit-text" for="checkbox_{number}">Answer {number}</label>
+                                </div>
+                            </div>
+
+                            <div id="answer_1" class="answer edit-answer editable edit-animation edit-delete edit-resize edit-move edit-color edit-font-size edit-border text_box">
+                                <span class="input">radio:answer</span>
+                                <label class="editable edit-text" for="checkbox_1">Answer 1</label>
+                            </div>
+
+                            <div id="answer_2" class="answer edit-answer editable edit-animation edit-delete edit-resize edit-move edit-color edit-font-size edit-border text_box">
+                                <span class="input">radio:answer</span>
+                                <label class="editable edit-text" for="checkbox_2">Answer 2</label>
+                            </div>
+
+                        </div>
+
+                        <div class="button_wrapper">
+                           <a class="btn btn-warning editable edit-animation edit-text edit-move edit-color edit-font-size save_button" id="save_button">Find out if you are right!</a>
+                        </div>
+
+                        <div id="correct" class="modal hide fade answered_correct" tabindex="-1" role="dialog" aria-labelledby="correct_label" aria-hidden="true">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                                <h3 id="correct_label" class="editable edit-text">Correct!</h3>
+                            </div>
+                            <div class="modal-body editable edit-html edit-inset" id="correct_text">
+                                <p><strong>This is an ideal place</strong> to put some text to introduce your learning topic. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                            </div>
+                        </div>
+
+                        <div id="wrong" class="modal hide fade answered_incorrect" tabindex="-1" role="dialog" aria-labelledby="wrong_label" aria-hidden="true">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                                <h3 id="wrong_label" class="editable edit-text">Wrong!</h3>
+                            </div>
+                            <div class="modal-body editable edit-html edit-inset" id="wrong_text">
+                                <p><strong>This is an ideal place</strong> to put some text to introduce your learning topic. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                            </div>
+                        </div>
+                        
+
+                    </form>
+
+                </div>
+                
+            </div>
+            <!-- START default Text_and_Images Image_Behind -->

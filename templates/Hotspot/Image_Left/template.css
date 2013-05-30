@@ -1,0 +1,54 @@
+
+#hotspot_image {
+    height:600px;    
+    margin-left: 0;    
+    position: relative;
+}
+
+@media (max-width: 480px) {
+    html #hotspot_image {
+        width: 100%;
+    }
+}
+
+#text_content {
+    padding: 14px 0;
+}
+
+.text_pad {
+    padding-right:20px;
+}
+
+@media (max-width: 768px) {
+    html .text_pad {
+        padding-left: 20px;
+    }
+}
+
+
+.hotspot {
+    position:absolute;
+
+    left:70px;
+    top:100px;
+
+    width:140px;
+    height:140px;
+
+    background-color:rgba(255,255,255,0.3);
+
+    border-radius: 50%;
+    cursor: pointer;
+
+    text-decoration: none;
+}
+#hotspot1 {    
+    left: 50px;
+    top: 200px;
+}
+
+#hotspot2 {
+    left:250px;
+    top:50px;
+}
+

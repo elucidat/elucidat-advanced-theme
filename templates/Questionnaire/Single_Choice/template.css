@@ -1,0 +1,21 @@
+
+#text_content {
+    padding-bottom:10px;
+    padding-top:20px;
+}
+
+@media (max-width: 979px) and (min-width: 768px) { 
+    html .span8 {   
+    	width: 676px;
+    }
+}
+
+@media (max-width:768px) {
+    html .span8 {   
+    	padding-left:20px;
+    	padding-bottom:20px;
+    }
+	html #text_content {
+		padding-right:20px;
+	}
+}

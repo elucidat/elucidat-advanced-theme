@@ -1,0 +1,39 @@
+
+#background {
+    padding-top:20px;
+}
+
+#video {
+    width:640px;
+    height:400px;
+	background-color:#000;
+    margin: 0 auto;
+    color:#000;
+    border:5px solid #ccc;
+}
+@media (max-width: 767px) { 
+    html #video {
+        width:400px;
+        height:280px;
+    }
+}
+
+@media (max-width: 480px) {
+    html #video {
+        width:320px;
+        height:240px;
+    }
+}
+div.video_player {
+	margin-top:0;
+}
+
+#text_content, #transcript_link {
+    padding: 20px 30px 20px 30px;
+}
+#transcript_link {
+    padding-top:0;
+}
+#transcript_link a {
+    display:inline-block;
+}
