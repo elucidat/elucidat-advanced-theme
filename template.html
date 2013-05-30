@@ -67,14 +67,14 @@
             <a id="menu_toggle" class="btn btn-warning" href="#project_navigation" data-toggle="dropdown" data-target="#project_navigation">
                 <i class="icon-home icon-white"></i> Menu
             </a>
-            <ul class="pager" data-role="pager">
-                <li class="{previous.disabled}">
+            <ul class="pager">
+                <li class="{previous.disabled}" data-role="pager-previous">
                     <a href="{previous.url}"><i class="icon-chevron-left icon-white"></i></a>
                 </li>
-                <li class="status">
+                <li class="status" data-role="pager-status">
                     {navigation.current} of {navigation.total}
                 </li>
-                <li class="{next.disabled}">
+                <li class="{next.disabled}" data-role="pager-next">
                     <a href="{next.url}"><i class="icon-chevron-right icon-white"></i></a>
                 </li>
             </ul>

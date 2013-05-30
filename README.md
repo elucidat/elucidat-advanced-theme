@@ -1,4 +1,4 @@
-Elucidat Default Template
+Elucidat Default Theme
 ==========================
 
-Default html template for the Elucidat E-learning Rapid Authoring Tool.
+Default html theme for the Elucidat E-learning Rapid Authoring Tool.
