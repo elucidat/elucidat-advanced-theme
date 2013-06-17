@@ -13,31 +13,19 @@
 	right:15px;
 }
 
-.carousel-caption {
-	background-color: rgba(0, 0, 0, 0.6);
+.carousel_caption {
+	background-color: rgba(255, 255, 255, 0.6);
     border-radius: 10px 10px 10px 10px;
-    color: #FFFFFF;
     min-height: 80px;
     left: 20px;
-    font-size: 1.1em;
-    line-height: 1.2em;
     padding: 9px 24px 8px;
     position: absolute;
     top: 300px;
     width: 500px;
     bottom: auto;
 }
-.carousel-caption h3,
-.carousel-caption h4,
-.carousel-caption h5 {
-	padding:0;
-	margin:0;
-}
-.carousel-caption p {
-    margin: 0 0 10px;
-}
 @media (max-width: 640px) {
-	html .carousel-caption {
+	html .carousel_caption {
         left: 0px;
         bottom:0px;
         width:auto;

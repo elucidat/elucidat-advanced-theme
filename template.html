@@ -1,12 +1,12 @@
     
-    <div id="body" class="editable edit-animation edit-inset edit-color edit-image edit-typography edit-font-size">
+    <div id="body">
         <div class="container">
             <div class="row">
                 <div class="span12">
                     <div id="project_header">
-                        <div id="project_logo" class="editable edit-image edit-resize edit-move">&nbsp;</div>
-                        <div id="project_title" class="editable edit-move edit-resize">
-                            <h1 class="editable edit-text edit-inset">{project.name}</h1>
+                        <div id="project_logo">&nbsp;</div>
+                        <div id="project_title">
+                            <h1>{project.name}</h1>
                         </div>
                     </div>
                 </div>
@@ -15,7 +15,7 @@
             <div class="row page_outer">
                 <div id="page_title_holder" class="span12">    
                     <div id="page_title" class="span10">
-                        <h2 data-role="page.name" class="editable edit-text edit-font-size">{page.name}</h2>
+                        <h2 data-role="page.name">{page.name}</h2>
                     </div>
                     <div id="buttons">
                         <!-- Button to trigger modal -->
@@ -27,9 +27,9 @@
                     <div id="helpContent" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="helpContentLabel" aria-hidden="true">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-                        <h3 id="helpContentLabel" class="editable edit-text">Help</h3>
+                        <h3 id="helpContentLabel">Help</h3>
                       </div>
-                      <div id="help_content" class="modal-body editable edit-html edit-inset">
+                      <div id="help_content" class="modal-body">
                         <p>Help content is inserted here.</p>
                       </div>
                       <div class="modal-footer">
@@ -40,10 +40,10 @@
                     <div id="resourceContent" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="resourceContentLabel" aria-hidden="true">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-                        <h3 id="resourceContentLabel" class="editable edit-text">Resources</h3>
+                        <h3 id="resourceContentLabel">Resources</h3>
                       </div>
                       <div class="modal-body">
-                        <div  id="resource_content" class="editable edit-html edit-inset">
+                        <div  id="resource_content">
                             <p>Resource introduction content is inserted here.</p>
                         </div>
                         <div id="resource_navigation">
@@ -57,7 +57,7 @@
                       </div>
                     </div>
                 </div>
-                <div id="page_wrapper" class="span12 editable edit-color">
+                <div id="page_wrapper" class="span12">
                     {page.html}
                 </div> 
             </div>
