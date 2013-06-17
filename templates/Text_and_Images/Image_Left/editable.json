@@ -1,0 +1,13 @@
+{
+	"#image": {
+		"image": true, 
+		"resize": true,
+		"delete": true
+	},
+	"#text_container": {
+		"text": {
+			"html": true
+		}, 
+		"inset": true
+	}
+}

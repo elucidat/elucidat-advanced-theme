@@ -1,0 +1,22 @@
+{
+	"#image": {
+		"image": {
+			"always-show-placeholder": true
+		}, 
+		"resize": {
+			"resize-height": true
+		},
+		"inset": true
+	},
+	"#overlay": {
+		"animation":true,
+		"resize":true,
+		"move":true,
+		"color":true
+	},
+	"#text_content": {
+		"text": {
+			"html": true
+		}
+	}
+}

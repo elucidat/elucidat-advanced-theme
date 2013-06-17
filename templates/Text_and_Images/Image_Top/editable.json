@@ -1,0 +1,16 @@
+{
+	"#image": {
+		"image": true, 
+		"resize": {
+			"resize-height": true
+		},
+		"delete": true,
+		"inset": true
+	},
+	"#text_content": {
+		"text": {
+			"html": true
+		}, 
+		"resize": true
+	}
+}

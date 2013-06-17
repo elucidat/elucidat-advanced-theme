@@ -1,0 +1,33 @@
+{
+	"#text_content": {
+		"text": {
+			"html": true
+		},
+		"inset": true
+	},
+	"#accordion": {
+		"add-option": true
+	},
+	".accordion-group": {
+		"delete": true
+	},
+	".accordion-toggle":{
+		"animation":true,
+		"text":true,
+		"inset":true,
+		"color":true,
+		"font":true
+	},
+	".image": {
+		"delete": true,
+		"image": true,
+		"resize": true,
+		"inset": true
+	},
+	".text_content": {
+		"text": {
+			"html": true
+		},
+		"inset": true
+	}
+}

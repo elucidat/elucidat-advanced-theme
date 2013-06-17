@@ -1,0 +1,33 @@
+{
+	"#text_content": {
+		"text": {
+			"html": true
+		},
+		"inset": true
+	},
+	".tabbable": {
+		"add-option": true
+	},
+	"[data-toggle=tab]": {
+		"delete": {
+			"delete-parent": true
+		},
+		"text": true,
+		"color": true,
+		"font": true,
+		"inset": true
+	},
+	".image": {
+		"delete": true,
+		"image": true,
+		"resize": true,
+		"inset": true
+	},
+	".text_content": {
+		"text": {
+			"html": true
+		},
+		"inset": true,
+		"resize": true 
+	}
+}

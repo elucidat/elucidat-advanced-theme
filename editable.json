@@ -1,0 +1,54 @@
+{
+	"body": {
+		"animation":true,
+		"color":true,
+		"image":true,
+		"font":{
+			"family":true,
+			"size":true
+		},
+		"inset":true
+	},
+	"#project_logo": {
+		"image":true,
+		"resize":true,
+		"move":true
+	},
+	"#project_title": {
+		"resize":true,
+		"move": {
+			"orientation": "right"
+		}
+	},
+	"h1": {
+		"text":true,
+		"inset": true
+	},
+	"h2": {
+		"text":true,
+		"font":{
+			"size":true
+		}
+	},
+	"h3#helpContentLabel":{
+		"text":true
+	},
+	"#help_content": {
+		"text": {
+			"html":true
+		},
+		"inset":true
+	},
+	"h3#resourceContentLabel":{
+		"text":true
+	},
+	"#resource_content": {
+		"text": {
+			"html":true
+		},
+		"inset":true
+	},
+	"#page_wrapper": {
+		"color":true
+	}
+}

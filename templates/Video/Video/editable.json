@@ -1,0 +1,26 @@
+{
+	"#video": {
+		"video": true,
+		"delete": true,
+		"resize": true,
+		"inset": true,
+		"invert": true
+	},
+	"#text_content": {
+		"text": {
+			"html": true
+		}
+	},
+	"#transcript_link": {
+		"delete": true
+	},
+	"#transcript_modal_label": {
+		"text": true
+	},
+	"#hotspot_modal_1_text": {
+		"text": {
+			"html": true
+		},
+		"inset": true
+	}
+}

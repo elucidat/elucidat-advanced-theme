@@ -1,0 +1,28 @@
+{
+	"#background": {
+		"add-option": true
+	},
+	".carousel_image": {
+		
+		"delete": {
+			"delete-parent": true
+		},
+		"image": true,
+		"resize": {
+			"resize-height":true
+		},
+		"inset": true
+	},
+	".carousel_caption": {
+		"resize": true,
+		"move": true,
+		"color": true,
+		"font": true
+	},
+	".carousel_caption > div.editable": {
+		"text": {
+			"html": true
+		},
+		"inset": true
+	}
+}

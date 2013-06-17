@@ -1,0 +1,29 @@
+{
+	"#image": {
+		"image": {
+			"always-show-placeholder": true
+		}, 
+		"resize": {
+			"resize-height": true
+		},
+		"add-option": true,
+		"inset": true
+	},
+	".text_box": {
+		"animation": true,
+		"delete": true,
+		"resize": true,
+		"move": true,
+		"color": true,
+		"font": {
+			"size": true,
+			"family": true
+		},
+		"border": true
+	},
+	".text_content": {
+		"text": {
+			"html": true
+		}
+	}
+}
