@@ -30,7 +30,6 @@
 	-ms-transition: 0.5s ease-in-out;
 	transition: 0.5s ease-in-out;
 }
-
 #project_navigation.open {
 	left:0px;
 }
@@ -41,7 +40,18 @@
 	padding:16px 20px 20px 20px;
 }
 
-#project_navigation li {
+#project_navigation ul ul {
+	display: none;
+}
+#project_navigation ul li.section_active ul {
+	display: block;
+	margin-top:5px;
+	padding-top: 5px;
+	border-top: 1px solid #aaa;
+}
+
+#project_navigation li li {
+
 	padding:2px 0 0 20px;
 	margin:0px;
 	color:#fff;
@@ -64,30 +74,30 @@
 	-moz-opacity:1;
 	opacity: 1;
 }
-#project_navigation li i {
+#project_navigation li > i {
 	text-indent: -5000px;
 }
 
-#project_navigation li.active i {
+#project_navigation li.active > i {
 	text-indent: 0px;
 }
-#project_navigation li.is_section i {
-	margin-top: 4px;
+#project_navigation li.is_section > i {
+	margin-top: 0px;
 }
-#project_navigation li a {
+#project_navigation li > a {
 	color:#fff;
 }
 
-#project_navigation li a:hover {
+#project_navigation li > a:hover {
 	color:#ccc;
 	text-decoration: none;
 }
 
-#project_navigation li.is_section {
+#project_navigation li.is_section > a {
 	font-size:1.25em;
 	padding:0 0 0 0px;
-	border-bottom:1px solid #fff;
 	padding-top:5px;
+	display: inline-block;
 }
 
 /* footer navigation */
@@ -257,7 +267,7 @@
 /* questionnaire styles */
 .answer {
     width:200px;
-    height:50px;
+    min-height:30px;
     margin-right:20px;
     margin-bottom:20px;
 }
@@ -265,42 +275,37 @@
 .answer span.input {
 	display:none;
 }
-.answer.on.active {
-  color: rgba(255, 255, 255, 0.75);
+
+.save_button {
+    
+    display:inline-block;
+
+    width:auto;
+    height:auto;
+
+    text-align: center;
+    color:#fff;
+    font-weight: bold;
+    font-size:1.2em;
+    padding: 10px 24px 10px 16px;
+    border-radius: 10px 10px 10px 10px;
+
+    background-color:#0c0;
+    
+    border: 1px solid rgba(50,50,50,0.3);
+    box-shadow: 1px 3px 5px 1px rgba(60, 30, 30, 0.1);
+
+    text-decoration: none;
+    cursor: pointer;
 }
-.answer.on {
-  color: #ffffff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #006dcc;
-  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
-  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
-  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
-  border-color: #0044cc #0044cc #002a80;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #0044cc;
-  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-}
-.answer.on:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.btn-primary.disabled,
-.btn-primary[disabled] {
-  color: #ffffff;
-  background-color: #0044cc;
-  *background-color: #003bb3;
-}
-.answer.on:active {
-  background-color: #003399;
+.save_button:hover {
+    text-decoration: none;
+
 }
 
 .button_wrapper {
 	padding-top:10px;
+	padding-bottom: 15px;
 }
 
 span.resource_info {

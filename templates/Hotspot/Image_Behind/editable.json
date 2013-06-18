@@ -1,0 +1,50 @@
+{
+	"#hotspot_wrapper":{
+		"add-option": true
+	},
+	".hotspot": {
+		"resize": true,
+		"delete": true,
+		"border": true,
+		"move": true,
+		"color": true
+	},
+	".modal-header h3": {
+		"text": true,
+		"font": {
+			"size": true
+		}
+	},
+	".modal-body": {
+		"text": {
+			"html": true
+		},
+		"inset":true
+	},
+    "#hotspot_image": {
+		"image": {
+			"always-show-placeholder": true
+		}, 
+		"resize": {
+			"resize-height": true
+		},
+		"inset": true
+    },
+
+	"#overlay": {
+		"resize": true,
+		"move": true,
+		"color": true,
+		"font": {
+			"size": true,
+			"family": true
+		},
+		"border": true
+	},
+
+	"#text_content": {
+		"text": {
+			"html": true
+		}
+	}
+}

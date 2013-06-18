@@ -3,19 +3,47 @@
     padding-bottom:10px;
     padding-top:20px;
 }
+#image {
+    min-height:220px;
+}
+#questionnaire_wrapper {
+    padding-bottom:20px;
+}
+.answer {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px 10px 10px 10px;
+    color: #000;
+    padding: 9px 24px 7px 24px;
+    min-width:100px;
+    min-height:25px;
+    margin-right: 20px;
+    float:left;
+}
+.answer span.input {
+    display: block;
+    position:absolute;
+    left:12px;
+}
+label {
+    display: block;
+    float: left;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-top:4px;
+}
 
 @media (max-width: 979px) and (min-width: 768px) { 
     html .span8 {   
-    	width: 676px;
+        width: 676px;
     }
 }
 
 @media (max-width:768px) {
     html .span8 {   
-    	padding-left:20px;
-    	padding-bottom:20px;
+        padding-left:20px;
+        padding-bottom:20px;
     }
-	html #text_content {
-		padding-right:20px;
-	}
+    html #text_content {
+        padding-right:20px;
+    }
 }

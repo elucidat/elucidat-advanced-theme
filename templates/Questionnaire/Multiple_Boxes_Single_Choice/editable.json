@@ -1,0 +1,69 @@
+{
+	"#image": {
+
+		"image": {
+			"always-show-placeholder": true
+		}, 
+		"resize": {
+			"resize-height": true
+		},
+		"inset": true
+	},
+
+	"#text_intro": {
+		"animation": true,
+		"resize": true,
+		"move": true,
+		"color": true,
+		"font": {
+			"size": true,
+			"family": true
+		},
+		"border": true
+	},
+	"#text_content": {
+		"text": {
+			"html": true
+		}
+	},
+	"#questionnaire_wrapper":{
+		"add-option": true
+	},
+	".answer": {
+		"answer": true,
+		"animation": true,
+		"delete": true,
+		"resize": true,
+		"move": true,
+		"color": true,
+		"font": {
+			"size": true
+		},
+		"border": true
+	},
+	".answer label": {
+		"text": true
+	},
+	"#save_button": {
+		"animation":true,
+		"text": true,
+		"move": true,
+		"color": true,
+		"resize": true,
+		"font": {
+			"size": true
+		}
+	},
+	".modal-header h3": {
+		"text": true,
+		"font": {
+			"size": true
+		}
+	},
+	".modal-body": {
+		"text": {
+			"html": true
+		},
+		"inset":true
+	}
+}

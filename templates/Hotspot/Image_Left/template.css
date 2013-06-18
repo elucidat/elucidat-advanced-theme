@@ -9,10 +9,14 @@
     html #hotspot_image {
         width: 100%;
     }
+    html #text_content {
+        width: 100%;
+    }
 }
 
 #text_content {
     padding: 14px 0;
+    margin-right:10px;
 }
 
 .text_pad {
