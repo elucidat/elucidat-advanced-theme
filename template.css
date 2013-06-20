@@ -266,10 +266,11 @@
 
 /* questionnaire styles */
 .answer {
-    width:200px;
+    width:25%;
     min-height:30px;
     margin-right:20px;
     margin-bottom:20px;
+    position:relative;
 }
 
 .answer span.input {
@@ -301,11 +302,6 @@
 .save_button:hover {
     text-decoration: none;
 
-}
-
-.button_wrapper {
-	padding-top:10px;
-	padding-bottom: 15px;
 }
 
 span.resource_info {
@@ -388,8 +384,8 @@ html i.icon-ppt {
 		border-radius: 0;
 	}
 	#page_title {
-	    padding-bottom: 6px;
-	    padding-top: 6px;
+	    padding-bottom: 10px;
+	    padding-top: 10px;
 	}
 	#page_wrapper {
 		border-radius: 0;
@@ -411,24 +407,49 @@ html i.icon-ppt {
 		line-height: 1.2em;
 	}
 }
-
-/*
-@media (min-width: 768px) and (max-width: 979px) {
-	body:before { content: "CSS Rule: min-width: 768px and max-width: 979px; "; }
-
-}
-@media (min-width: 480px) and (max-width: 768px) {
-	body:before { content: "CSS Rule: min-width: 480px and max-width: 768px; "; }
-
-}
-@media (max-width: 480px) {
-	body:before { content: "CSS Rule: max-width: 480px; "; }
-}
-@media (min-width: 980px) and (max-width: 1199px) {
-	body:before { content: "CSS Rule: min-width: 980px and max-width: 1199px; "; }
-}
-
+/* disabling largest bootstrap layout */
 @media (min-width: 1200px) {
-	body:before { content: "CSS Rule: min-width: 1200px; "; }
+	.container,
+	.navbar-static-top .container,
+	.navbar-fixed-top .container,
+	.navbar-fixed-bottom .container {
+	  width: 940px;
+	}
+	.span12 {
+	  width: 940px;
+	}
+	.span11 {
+	  width: 860px;
+	}
+	.span10 {
+	  width: 780px;
+	}
+	.span9 {
+	  width: 700px;
+	}
+	.span8 {
+	  width: 620px;
+	}
+	.span7 {
+	  width: 540px;
+	}
+	.span6 {
+	  width: 460px;
+	}
+	.span5 {
+	  width: 380px;
+	}
+	.span4 {
+	  width: 300px;
+	}
+	.span3 {
+	  width: 220px;
+	}
+	.span2 {
+	  width: 140px;
+	}
+	.span1 {
+	  width: 60px;
+	}
+  
 }
-*/

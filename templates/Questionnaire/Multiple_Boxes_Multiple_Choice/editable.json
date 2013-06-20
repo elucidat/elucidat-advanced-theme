@@ -1,6 +1,8 @@
 {
 	"#image": {
-
+		"add-option": {
+			"before": ".save_button"
+		},
 		"image": {
 			"always-show-placeholder": true
 		}, 
@@ -25,9 +27,6 @@
 		"text": {
 			"html": true
 		}
-	},
-	"#questionnaire_wrapper":{
-		"add-option": true
 	},
 	".answer": {
 		"answer": true,

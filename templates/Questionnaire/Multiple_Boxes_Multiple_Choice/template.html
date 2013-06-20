@@ -2,83 +2,77 @@
             <!-- START default Text_and_Images Image_Behind -->
             <div id="background">
                 
-                <div id="image">
+                <form class="questionnaire">
 
-                    <div id="text_intro">
-                        <div id="text_content" class="editable edit-html">
-                            <p>This questionnaire template allows you to assess how the learner is getting on.</p>
+                    <div id="image">
+
+                        <div id="text_intro" class="add-option-ignore">
+                            <div id="text_content" class="editable edit-html">
+                                <p>This questionnaire template allows you to assess how the learner is getting on.</p>
+                            </div>
+                        </div>
+
+                        <div class="add-option-template hide">
+                            <div id="answer_{number}" class="answer text_box">
+                                <span class="input">checkbox:checkbox_{number}</span>
+                                <label for="checkbox_{number}">Answer {number}</label>
+                            </div>
+                        </div>
+
+                        <div id="answer_1" class="answer text_box">
+                            <span class="input">checkbox:checkbox_1</span>
+                            <label for="checkbox_1">Answer 1</label>
+                        </div>
+
+                        <div id="answer_2" class="answer text_box">
+                            <span class="input">checkbox:checkbox_2</span>
+                            <label for="checkbox_2">Answer 2</label>
+                        </div>
+
+                        <a id="save_button" class="save_button">Find out if you are right!</a>
+
+                    </div>
+
+                    <div id="correct" class="modal hide fade answered_correct" tabindex="-1" role="dialog" aria-labelledby="correct_label" aria-hidden="true">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                            <h3 id="correct_label">Correct!</h3>
+                        </div>
+                        <div class="modal-body" id="correct_text">
+                            <p><strong>This is an ideal place</strong> to put some text to introduce your learning topic. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
                         </div>
                     </div>
 
-                    <form class="questionnaire">
-                        <div id="questionnaire_wrapper">
-
-                            <div class="edit-add-option-template hide">
-                                <div id="answer_{number}" class="answer text_box">
-                                    <span class="input">checkbox:checkbox_{number}</span>
-                                    <label for="checkbox_{number}">Answer {number}</label>
-                                </div>
-                            </div>
-
-                            <div id="answer_1" class="answer text_box">
-                                <span class="input">checkbox:checkbox_1</span>
-                                <label for="checkbox_1">Answer 1</label>
-                            </div>
-
-                            <div id="answer_2" class="answer text_box">
-                                <span class="input">checkbox:checkbox_2</span>
-                                <label for="checkbox_2">Answer 2</label>
-                            </div>
-
+                    <div id="partially_correct" class="modal hide fade answered_partially_correct" tabindex="-1" role="dialog" aria-labelledby="partially_correct_label" aria-hidden="true">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                            <h3 id="partially_correct_label">Partially correct!</h3>
                         </div>
-
-                        <div class="button_wrapper">
-                           <a id="save_button" class="save_button">Find out if you are right!</a>
+                        <div class="modal-body" id="partially_correct_text">
+                            <p><strong>This is an ideal place</strong> to put some text to introduce your learning topic. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                         </div>
-
-                        <div id="correct" class="modal hide fade answered_correct" tabindex="-1" role="dialog" aria-labelledby="correct_label" aria-hidden="true">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-                                <h3 id="correct_label">Correct!</h3>
-                            </div>
-                            <div class="modal-body" id="correct_text">
-                                <p><strong>This is an ideal place</strong> to put some text to introduce your learning topic. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                            </div>
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
                         </div>
+                    </div>
 
-                        <div id="partially_correct" class="modal hide fade answered_partially_correct" tabindex="-1" role="dialog" aria-labelledby="partially_correct_label" aria-hidden="true">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-                                <h3 id="partially_correct_label">Partially correct!</h3>
-                            </div>
-                            <div class="modal-body" id="partially_correct_text">
-                                <p><strong>This is an ideal place</strong> to put some text to introduce your learning topic. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                            </div>
+                    <div id="wrong" class="modal hide fade answered_incorrect" tabindex="-1" role="dialog" aria-labelledby="wrong_label" aria-hidden="true">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                            <h3 id="wrong_label">Wrong!</h3>
                         </div>
-
-                        <div id="wrong" class="modal hide fade answered_incorrect" tabindex="-1" role="dialog" aria-labelledby="wrong_label" aria-hidden="true">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-                                <h3 id="wrong_label">Wrong!</h3>
-                            </div>
-                            <div class="modal-body" id="wrong_text">
-                                <p><strong>This is an ideal place</strong> to put some text to introduce your learning topic. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                            </div>
+                        <div class="modal-body" id="wrong_text">
+                            <p><strong>This is an ideal place</strong> to put some text to introduce your learning topic. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                         </div>
-                        
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                        </div>
+                    </div>
 
-                    </form>
+                </form>
 
-                </div>
-                
             </div>
             <!-- START default Text_and_Images Image_Behind -->

@@ -3,7 +3,7 @@ form {
 }
 
 #background {
-	position:relative;
+    position:relative;
 }
 
 .text_box, #text_intro {
@@ -48,10 +48,10 @@ label {
 }
 
 #image {
-	width:100%;
-	height:600px;
+    width:100%;
+    height:600px;
 
-	height:500px;
+    height:500px;
     border-radius: 0 0 10px 10px;
     position: relative;
 }

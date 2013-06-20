@@ -19,7 +19,6 @@
 		"animation": true,
 		"delete": true,
 		"resize": true,
-		"move": true,
 		"color": true,
 		"font": {
 			"size": true
@@ -32,7 +31,6 @@
 	"#save_button": {
 		"animation":true,
 		"text": true,
-		"move": true,
 		"color": true,
 		"resize": true,
 		"font": {
