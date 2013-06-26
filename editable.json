@@ -15,20 +15,23 @@
 		"move":true
 	},
 	"#project_title": {
-		"resize":true,
 		"move": {
 			"orientation": "right"
 		}
 	},
 	"h1": {
 		"text":true,
-		"inset": true
+		"inset": true,
+		"font":{
+			"size":true
+		}
 	},
 	"h2": {
 		"text":true,
 		"font":{
 			"size":true
-		}
+		},
+		"inset":true
 	},
 	"h3#helpContentLabel":{
 		"text":true

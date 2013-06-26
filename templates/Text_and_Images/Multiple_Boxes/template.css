@@ -10,9 +10,11 @@
     min-height: 30px;
     left: 20px;
     top: 20px;
-    padding: 14px 24px 6px 24px;
     position: absolute;
     width: 500px;
+}
+.text_content {
+    padding: 14px 24px 6px 24px;
 }
 
 #overlay_1 {
@@ -27,7 +29,7 @@
 }
 
 #image {
-	width:100%;
+	width:auto;
 	height:600px;
 
 	height:500px;
@@ -44,6 +46,7 @@
         left: 0px;
         bottom:0px;
         width:auto;
+        min-height:50px;
         height:auto;
         margin-bottom:20px;
         border-radius:0;
@@ -53,10 +56,7 @@
     html #image {
         padding-top:120px;
         padding-bottom: 20px;
-        height:auto;
     }
-}
-@media (max-width: 480px) {
     html #image {
         border-radius:0;
     }
