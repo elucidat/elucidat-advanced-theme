@@ -11,7 +11,7 @@
     left: 20px;
     top: 20px;
     position: absolute;
-    width: 500px;
+    width: 50%;
 }
 .text_content {
     padding: 14px 24px 6px 24px;
@@ -31,7 +31,6 @@
 #image {
 	width:auto;
 	height:600px;
-
 	height:500px;
     border-radius: 0 0 10px 10px;
     position: relative;
@@ -46,12 +45,11 @@
         left: 0px;
         bottom:0px;
         width:auto;
-        min-height:50px;
-        height:auto;
         margin-bottom:20px;
-        border-radius:0;
         top:auto;
         position:relative;
+        margin-left:10px;
+        margin-right:10px;
     }
     html #image {
         padding-top:120px;

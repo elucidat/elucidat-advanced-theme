@@ -24,6 +24,7 @@
 	".text_content": {
 		"text": {
 			"html": true
-		}
+		},
+		"inset":true
 	}
 }
