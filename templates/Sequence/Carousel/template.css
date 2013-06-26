@@ -24,7 +24,7 @@
     width: 500px;
     bottom: auto;
 }
-@media (max-width: 640px) {
+@media (max-width: 480px) {
 	html .carousel_caption {
         left: 0px;
         bottom:0px;

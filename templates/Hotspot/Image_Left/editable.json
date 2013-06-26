@@ -29,14 +29,11 @@
 		"inset": true
     },
     "#text_content": {
-    	"resize": true,
-		"inset": true
-    },
-	"#text_container": {
 		"text": {
 			"html": true
 		},
+    	"resize": true,
 		"inset": true
-	}
+    }
 
 }

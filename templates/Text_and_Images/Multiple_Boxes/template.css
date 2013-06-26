@@ -34,12 +34,12 @@
     border-radius: 0 0 10px 10px;
     position: relative;
 }
-@media (max-width: 979px) and (min-width: 641px) {
+@media (max-width: 979px) and (min-width: 768px) {
     html .text_box {
         max-width:500px;
     }
 }
-@media (max-width: 640px) {
+@media (max-width: 480px) {
     html .text_box {
         left: 0px;
         bottom:0px;

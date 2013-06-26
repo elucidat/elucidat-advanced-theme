@@ -1,7 +1,4 @@
 
-
-
-
 #body {
 	background-color: #3d4968;
 	background-image:url(images/background.jpg);
@@ -73,10 +70,12 @@
 	-ms-transition: 0.5s ease-in-out;
 	transition: 0.5s ease-in-out;
 
+	position:relative;
+
 }
 #project_navigation li li {
 
-	padding:2px 0 0 20px;
+	padding:2px 0 0 0px;
 	margin:0px;
 	color:#fff;
 
@@ -91,6 +90,9 @@
 	text-indent: -5000px;
 	text-indent: 0px;
 	background-position: -216px -96px;
+	position: absolute;
+	left:0px;
+	top:1px;
 }
 #project_navigation li.enabled > i {
 	background-position: -264px -96px;
@@ -104,9 +106,11 @@
 }*/
 #project_navigation li.is_section > i {
 	margin-top: 0px;
+	top: 5px;
 }
 #project_navigation li > a {
 	color:#fff;
+	padding:0 0 0 20px;
 }
 
 #project_navigation li > a:hover {
@@ -116,8 +120,7 @@
 
 #project_navigation li.is_section > a {
 	font-size:1.25em;
-	padding:0 0 0 0px;
-	padding-top:5px;
+	padding:5px 0 0 20px;
 	display: inline-block;
 }
 
@@ -253,6 +256,7 @@
 #page_title {
 	padding-top: 16px;
 	padding-bottom: 16px;
+	padding-left: 20px;
 }
 #buttons {
 	position:absolute;
@@ -271,6 +275,7 @@
 	/*background-color: #eee;*/
 	border-radius:0px 0px 10px 10px;
 	background-color: #fff;
+	margin-left: 0;
 }
 @media (max-width: 480px) {
 	html #page_wrapper {
@@ -354,66 +359,68 @@ html i.icon-ppt {
 @media (max-width: 767px) { 
 	/*body:before { content: "Rule: max-width: 767px; "; }*/
 
-	#project_header {
-		height:170px;
+	html #project_header {
+		height:100px;
 	}
-	#project_title {    
-		top: 95px;
+	html #project_logo {
+		background-size: contain;
+	    left: 0;
+	    margin-left: 20px;
+	    margin-top: 20px;
+	    position: relative;
+	    top: 0;
+	    width: 300px;
+	}
+	html #project_title {    
 		left: 0;
-		text-align: left;
+	    margin-left: 20px;
+	    padding: 5px 0 5px 0;
+	    position: relative;
+	    text-align: left;
+	    top: 0;
 	}
-	#page_title {
-		margin-left: 20px;
+	html #page_title {
 	}
-	h1 {
-		margin-left: 20px;
-    	font-size: 35.5px;
+	html #project_title h1 {
+		font-size:1.7em;
 	}
-	h2 {
-		font-size:24px;
+	html #page_title h2 {
+		font-size:1.7em;
 	}
 }
 
 @media (max-width: 480px) {
 	/*body:before { content: "Rule: max-width: 480px; "; }*/
 
-	#project_header {
+	html #project_header {
 		height:auto;
 	}
 	html #project_logo {
-		position:relative;
-		left:0
-		top:0;
+	    width: 80%;
 	}
-	#project_title {    
-		padding-bottom: 0;
-    	padding-top: 5px;
-		position: relative;
-		left: 0;
-		top:0;
-		text-align: left;
+	html #project_title {    
 	}
-	h1 {
-    	font-size: 20px;
+	html #project_title h1 {
+    	font-size: 1.3em;
 	}
-	h2 {
-		font-size:19px;
+	html #page_title h2 {
+		font-size:1.5em;
 	}
 	body {
 		padding-left:0;
 		padding-right:0;
 	}
-	#page_title_holder {
+	html #page_title_holder {
 		border-radius: 0;
 	}
-	#page_title {
+	html #page_title {
 	    padding-bottom: 10px;
 	    padding-top: 10px;
 	}
-	#page_wrapper {
+	html #page_wrapper {
 		border-radius: 0;
 	}
-	#buttons {
+	html #buttons {
 	    display:none;
 	}
 
@@ -438,41 +445,4 @@ html i.icon-ppt {
 	.navbar-fixed-bottom .container {
 	  width: 940px;
 	}
-	.span12 {
-	  width: 940px;
-	}
-	.span11 {
-	  width: 860px;
-	}
-	.span10 {
-	  width: 780px;
-	}
-	.span9 {
-	  width: 700px;
-	}
-	.span8 {
-	  width: 620px;
-	}
-	.span7 {
-	  width: 540px;
-	}
-	.span6 {
-	  width: 460px;
-	}
-	.span5 {
-	  width: 380px;
-	}
-	.span4 {
-	  width: 300px;
-	}
-	.span3 {
-	  width: 220px;
-	}
-	.span2 {
-	  width: 140px;
-	}
-	.span1 {
-	  width: 60px;
-	}
-  
 }

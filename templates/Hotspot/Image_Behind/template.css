@@ -19,7 +19,7 @@
     width: 500px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 480px) {
     html #overlay {
         left: 0px;
         bottom:0px;

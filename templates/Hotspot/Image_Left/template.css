@@ -5,27 +5,37 @@
     position: relative;
 }
 
-@media (max-width: 480px) {
-    html #hotspot_image {
-        width: 100%;
-    }
-    html #text_content {
-        width: 100%;
-    }
-}
-
 #text_content {
-    padding: 14px 0;
+    padding: 14px 0 0 20px;
     margin-right:10px;
+    margin-left:0px;
 }
 
 .text_pad {
     padding-right:20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) and (min-width: 481px) {
     html .text_pad {
         padding-left: 20px;
+    }
+    html #hotspot_image {
+        width: 90%;
+    }
+    html #text_content {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    html .text_pad {
+        padding-left: 20px;
+    }
+    html #hotspot_image {
+        width: 100%;
+    }
+    html #text_content {
+        width: 100%;
     }
 }
 
