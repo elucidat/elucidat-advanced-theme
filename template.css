@@ -153,21 +153,17 @@
 	width:40px;
 	height:40px;
 
-	display: inline-block;
+	display: block;
+	float:left;
 	overflow:hidden;
-    font-weight: bold;
 }
 
 #footer_navigation .pager li a,
 .carousel-control {
-	
 	background-image:url(images/menu_icons.png);
 	background-position: 0 -68px;
-
     background-repeat: no-repeat;
-
 	text-indent: -5000px;
-	
 	display:block;
 	width:20px;
 	height:30px;
@@ -178,7 +174,6 @@
 	background-color: inherit;
 	border:0;
 	opacity:1;
-
 }
 #footer_navigation .pager li a:hover, 
 .carousel-control:hover {
@@ -204,12 +199,11 @@
 	opacity: 0.3;
 }
 #footer_navigation .pager li.status {
-	
 	background-image:url(images/menu_icons.png);
 	background-position: 0 -23px;
     background-repeat: no-repeat;
     color: #FFFFFF;
-    height: 27px;
+    height: 29px;
     padding-left: 4px;
     padding-right: 6px;
     padding-top: 13px;
@@ -230,6 +224,7 @@
 	color:#fff;
 	font-size:1.1em;
 	line-height: 22px;
+	text-shadow: none;
 }
 #help_buttons a:hover, #help_buttons a:active {
 	color:#ddd;
