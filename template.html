@@ -17,45 +17,6 @@
                     <div id="page_title" class="span10">
                         <h2 data-role="page.name">{page.name}</h2>
                     </div>
-                    <div id="buttons">
-                        <!-- Button to trigger modal -->
-                        <a href="#resourceContent" role="button" class="btn" data-toggle="modal"><i class="icon-file"></i> Resources</a>
-
-                        <a href="#helpContent" role="button" class="btn" data-toggle="modal"><i class="icon-book"></i> Help</a>
-                    </div>
-                    <!-- Modal -->
-                    <div id="helpContent" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="helpContentLabel" aria-hidden="true">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-                        <h3 id="helpContentLabel">Help</h3>
-                      </div>
-                      <div id="help_content" class="modal-body">
-                        <p>Help content is inserted here.</p>
-                      </div>
-                      <div class="modal-footer">
-                        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                      </div>
-                    </div>
-                    <!-- Modal 2 -->
-                    <div id="resourceContent" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="resourceContentLabel" aria-hidden="true">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-                        <h3 id="resourceContentLabel">Resources</h3>
-                      </div>
-                      <div class="modal-body">
-                        <div  id="resource_content">
-                            <p>Resource introduction content is inserted here.</p>
-                        </div>
-                        <div id="resource_navigation">
-                            <ul>
-                                {resources.html}
-                            </ul>
-                        </div>
-                      </div>
-                      <div class="modal-footer">
-                        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                      </div>
-                    </div>
                 </div>
                 <div id="page_wrapper" class="span12">
                     {page.html}
@@ -64,25 +25,68 @@
         </div>
 
         <div id="footer_navigation">                   
-            <a id="menu_toggle" class="btn btn-warning" href="#project_navigation" data-toggle="dropdown" data-target="#project_navigation">
-                <i class="icon-home icon-white"></i> Menu
-            </a>
-            <ul class="pager">
-                <li class="{previous.disabled}" data-role="pager-previous">
-                    <a href="{previous.url}"><i class="icon-chevron-left icon-white"></i></a>
-                </li>
-                <li class="status" data-role="pager-status">
-                    {navigation.current} of {navigation.total}
-                </li>
-                <li class="{next.disabled}" data-role="pager-next">
-                    <a href="{next.url}"><i class="icon-chevron-right icon-white"></i></a>
-                </li>
-            </ul>
+                
+            <div class="container">
+
+                <div id="help_buttons">
+                    <a id="menu_toggle" class="btn btn-link" href="#project_navigation" data-toggle="dropdown" data-target="#project_navigation"><i class="icon-home icon-white"></i> Menu</a>
+                    <!-- Button to trigger modal -->
+                    <a href="#resourceContent" role="button" class="btn btn-link hidden-phone" data-toggle="modal"><i class="icon-file"></i> Resources</a>
+                    <a href="#helpContent" role="button" class="btn btn-link hidden-phone" data-toggle="modal"><i class="icon-book"></i> Help</a>
+
+                </div>
+
+                <ul class="pager">
+                    <li class="{previous.disabled}" data-role="pager-previous">
+                        <a href="{previous.url}"><i class="icon-chevron-left icon-white"></i></a>
+                    </li>
+                    <li class="status" data-role="pager-status">
+                        {navigation.current} of {navigation.total}
+                    </li>
+                    <li class="{next.disabled}" data-role="pager-next">
+                        <a href="{next.url}" class="next"><i class="icon-chevron-right icon-white"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div id="project_navigation">
             <ul data-role="navigation">
                 {navigation.html}
             </ul>
         </div>
+
+        <!-- Modal -->
+            <div id="helpContent" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="helpContentLabel" aria-hidden="true">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                    <h3 id="helpContentLabel">Help</h3>
+                </div>
+                <div id="help_content" class="modal-body">
+                    <p>Help content is inserted here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </div>
+            <!-- Modal 2 -->
+            <div id="resourceContent" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="resourceContentLabel" aria-hidden="true">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                    <h3 id="resourceContentLabel">Resources</h3>
+                </div>
+                <div class="modal-body">
+                    <div  id="resource_content">
+                        <p>Resource introduction content is inserted here.</p>
+                    </div>
+                    <div id="resource_navigation">
+                        <ul>
+                        {resources.html}
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </div>
     </div>
 

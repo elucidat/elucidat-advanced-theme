@@ -3,7 +3,6 @@
 		"add-option": true
 	},
 	".carousel_image": {
-		
 		"delete": {
 			"delete-parent": true
 		},
@@ -17,7 +16,8 @@
 		"resize": true,
 		"move": true,
 		"color": true,
-		"font": true
+		"font": true,
+		"border":true
 	},
 	".carousel_caption > div.editable": {
 		"text": {

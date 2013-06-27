@@ -1,6 +1,7 @@
 
-
-
+#text_wrapper {
+    padding-left:20px;
+}
 
 #accordion {
 }
@@ -65,5 +66,9 @@ a.accordion-toggle.collapsed {
 	html .accordion-inner {
     	padding-bottom: 10px;    
     	overflow: hidden;
+	}
+
+	html #text_wrapper {
+	    padding-left:0px;
 	}
 }

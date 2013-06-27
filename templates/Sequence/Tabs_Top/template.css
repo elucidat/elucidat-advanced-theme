@@ -1,5 +1,7 @@
 
-
+#text_wrapper {
+    padding-left:20px;
+}
 #text_content {
     padding-bottom:10px;
     padding-top:20px;
@@ -48,6 +50,9 @@ ul.nav li {
 	}
 	html .tab-pane {
 		padding:0 20px 20px 20px;
+	}
+	html #text_wrapper {
+	    padding-left:0px;
 	}
 }
 @media (max-width: 768px) and (min-width: 480px) {

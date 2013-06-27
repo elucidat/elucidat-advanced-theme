@@ -15,11 +15,21 @@
 			"size": true
 		}
 	},
-	".modal-body": {
+	".modal": {
+		"color": true
+	},
+	".popup_image": {
+		"image": true,
+		"resize": true,
+		"inset": true,
+		"delete": true
+	},
+	".popup_text": {
 		"text": {
 			"html": true
 		},
-		"inset":true
+		"inset":true,
+		"resize": true
 	},
     "#hotspot_image": {
 		"image": {
