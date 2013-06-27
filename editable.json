@@ -24,7 +24,8 @@
 		"inset": true,
 		"font":{
 			"size":true
-		}
+		},
+		"color": true
 	},
 	"h2": {
 		"text":true,

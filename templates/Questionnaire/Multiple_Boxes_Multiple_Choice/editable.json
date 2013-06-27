@@ -74,11 +74,5 @@
 		"font": {
 			"size": true
 		}
-	},
-	".modal-body": {
-		"text": {
-			"html": true
-		},
-		"inset":true
 	}
 }
