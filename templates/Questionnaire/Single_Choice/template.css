@@ -11,6 +11,7 @@
 }
 #questionnaire_wrapper {
     position: relative;
+    padding-right:20px;
 }
 .answer {
     background-color: rgba(225, 225, 225, 0.75);
