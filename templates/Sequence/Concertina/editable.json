@@ -28,6 +28,7 @@
 		"text": {
 			"html": true
 		},
+		"resize": true,
 		"inset": true
 	}
 }
