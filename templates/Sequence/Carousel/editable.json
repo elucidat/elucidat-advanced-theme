@@ -16,7 +16,9 @@
 		"resize": true,
 		"move": true,
 		"color": true,
-		"font": true,
+		"font": {
+			"size":true
+		},
 		"border":true
 	},
 	".carousel_caption > div.editable": {
