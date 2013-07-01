@@ -1,6 +1,10 @@
 
-a {
+.template_wrapper a {
 	color:inherit;
+	text-decoration: underline;
+}
+.template_wrapper a:hover {
+	opacity:0.7;
 }
 
 #body {
