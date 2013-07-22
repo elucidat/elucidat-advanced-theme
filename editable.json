@@ -9,23 +9,25 @@
 		},
 		"inset":true
 	},
+	"#project_header": {
+		"resize":{
+			"resize-height":true
+		}
+	},
 	"#project_logo": {
 		"image":true,
 		"resize":true,
 		"move":true
 	},
-	"#project_title": {
-		"move": {
-			"orientation": "right"
-		}
-	},
 	"h1": {
 		"text":true,
-		"inset": true,
 		"font":{
 			"size":true
 		},
-		"color": true
+		"color": true,
+		"move": {
+			"orientation": "right"
+		}
 	},
 	"h2": {
 		"text":true,

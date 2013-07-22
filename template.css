@@ -263,35 +263,35 @@
 /* header */
 
 #project_header {
-	height:120px;
+	height:60px;
 	position:relative;
 }
 #project_logo {
-	width:250px;
+	width:235px;
 	position:absolute;
-	height:80px;
+	height:45px;
 
 	left:0px;
-	top:20px;
+	top:9px;
 
 	background-image:url(images/logo.png);
 	background-repeat:no-repeat;
 }
 #project_title {
-	text-align:right;
-	color:#fff;
-	position:absolute;
-	right:0px;
-	top:30px;
 }
-
-
 
 #project_title h1 {
 	font-weight:normal;
 	text-shadow: #666 0.05em 0.05em 0.05em;
-	font-size: 2.32em;
+	font-size: 2.12em;
 	line-height: 1em;
+
+	text-align:right;
+	color:#fff;
+	position:absolute;
+	right:0px;
+	top:10px;
+
 }
 
 /* page content */
@@ -305,12 +305,13 @@
 	position:relative;
 }
 #page_title {
-	padding-top: 16px;
-	padding-bottom: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-left: 20px;
 }
 #page_title h2 {
 	padding:0;
+	font-size:1.9em;
 	margin:0;
 	font-weight:normal;
 }
@@ -374,6 +375,10 @@
 .save_button:hover {
     text-decoration: none;
 
+}
+
+.template_wrapper > .row:first-child {
+	margin-left: 0;
 }
 
 span.resource_info {
@@ -446,7 +451,7 @@ html i.icon-ppt {
 	/*body:before { content: "Rule: max-width: 767px; "; }*/
 
 	html #project_header {
-		height:100px;
+		height:90px;
 	}
 	html #project_logo {
 		background-size: contain;
@@ -457,18 +462,16 @@ html i.icon-ppt {
 	    top: 0;
 	    width: 300px;
 	}
-	html #project_title {    
+	html #project_title h1 {    
 		left: 0;
 	    margin-left: 20px;
 	    padding: 5px 0 5px 0;
 	    position: relative;
 	    text-align: left;
 	    top: 0;
+		font-size:1.7em;
 	}
 	html #page_title {
-	}
-	html #project_title h1 {
-		font-size:1.7em;
 	}
 	html #page_title h2 {
 		font-size:1.7em;
