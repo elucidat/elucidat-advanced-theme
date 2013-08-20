@@ -1,7 +1,6 @@
 {
 	"#video": {
 		"video": true,
-		"delete": true,
 		"resize": true,
 		"inset": true,
 		"invert": true

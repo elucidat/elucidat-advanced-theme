@@ -526,15 +526,9 @@ html i.icon-ppt {
 	}
 
 }
-@media (min-width: 980px) and (max-width: 1199px) {
+@media (min-width: 980px) {
 	html #page_wrapper {
-		font-size: 1.2em;
-		line-height: 1.2em;
-	}
-}
-@media (min-width: 1200px) {
-	html #page_wrapper {
-		font-size: 1.4em;
+		font-size: 1.22em;
 		line-height: 1.2em;
 	}
 }
