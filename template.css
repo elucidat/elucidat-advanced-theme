@@ -444,6 +444,9 @@ html i.icon-ppt {
 	width:450px;
 	float:left;
 }
+.modal a, .modal a:hover {
+	color:#fff;
+}
 
 
 
