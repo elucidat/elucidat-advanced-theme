@@ -32,9 +32,7 @@
 		"resize": true
 	},
     "#hotspot_image": {
-		"image": {
-			"always-show-placeholder": true
-		}, 
+		"image": true, 
 		"resize": {
 			"resize-height": true
 		},

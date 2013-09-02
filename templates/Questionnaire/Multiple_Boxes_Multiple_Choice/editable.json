@@ -3,9 +3,7 @@
 		"add-option": {
 			"before": ".save_button"
 		},
-		"image": {
-			"always-show-placeholder": true
-		}, 
+		"image": true, 
 		"resize": {
 			"resize-height": true
 		},
