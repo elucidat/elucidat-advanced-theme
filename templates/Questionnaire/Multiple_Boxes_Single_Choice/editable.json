@@ -46,6 +46,9 @@
 		"answer": true,
 		"animation": true,
 		"delete": true,
+		"image": {
+			"show-placeholder":false
+		},
 		"resize": true,
 		"move": true,
 		"color": true,

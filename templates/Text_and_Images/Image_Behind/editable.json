@@ -8,6 +8,9 @@
 	},
 	"#overlay": {
 		"animation":true,
+		"image": {
+			"show-placeholder":false
+		},
 		"resize":true,
 		"move":true,
 		"color":true

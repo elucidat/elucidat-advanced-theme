@@ -8,7 +8,14 @@
 	"#text_content": {
 		"text": {
 			"html": true
-		}
+		},
+		"delete":true
+	},
+	"#text_before": {
+		"text": {
+			"html": true
+		},
+		"delete":true
 	},
 	"#transcript_link": {
 		"delete": true

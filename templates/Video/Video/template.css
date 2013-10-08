@@ -28,8 +28,14 @@ div.video_player {
 	margin-top:0;
 }
 
+#text_before {
+    padding:0 30px;
+}
 #text_content, #transcript_link {
     padding: 20px 30px 20px 30px;
+}
+#text_content {
+    padding-bottom:10px;
 }
 #transcript_link {
     padding-top:0;

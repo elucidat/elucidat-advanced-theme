@@ -9,6 +9,9 @@
 	},
 	".text_box": {
 		"animation": true,
+		"image": {
+			"show-placeholder":false
+		},
 		"delete": true,
 		"resize": true,
 		"move": true,
