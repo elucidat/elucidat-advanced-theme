@@ -6,8 +6,7 @@
 		"font":{
 			"family":true,
 			"size":true
-		},
-		"inset":true
+		}
 	},
 	"#project_header": {
 		"resize":{
