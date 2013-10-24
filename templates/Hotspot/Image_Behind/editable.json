@@ -20,6 +20,7 @@
 	},
 	".popup_image": {
 		"image": true,
+		"video": true,
 		"resize": true,
 		"inset": true,
 		"delete": true
