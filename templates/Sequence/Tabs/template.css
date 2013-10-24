@@ -9,6 +9,7 @@
 }
 ul.nav {
 	width: 240px;
+	min-height:240px;
 }
 ul.nav li {
 	border-radius: 4px 4px 0 0;
