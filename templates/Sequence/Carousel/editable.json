@@ -19,7 +19,8 @@
 		"font": {
 			"size":true
 		},
-		"border":true
+		"border":true,
+		"inset": true
 	},
 	".carousel_caption > div.editable": {
 		"text": {
