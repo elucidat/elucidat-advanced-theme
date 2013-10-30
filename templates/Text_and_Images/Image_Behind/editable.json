@@ -13,7 +13,12 @@
 		},
 		"resize":true,
 		"move":true,
-		"color":true
+		"color":true,
+		"font": {
+			"size": true,
+			"family": true
+		},
+		"border": true
 	},
 	"#text_content": {
 		"text": {
