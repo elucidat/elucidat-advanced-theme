@@ -1,6 +1,6 @@
 
 #hotspot_image {
-    height:600px;    
+    height:500px;    
     margin-left: 0;    
     position: relative;
 }
@@ -39,7 +39,6 @@
     }
 }
 
-
 .hotspot {
     position:absolute;
 
@@ -62,7 +61,7 @@
 }
 
 #hotspot2 {
-    left:250px;
+    left:150px;
     top:50px;
 }
 

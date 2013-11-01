@@ -9,8 +9,49 @@
     border-radius: 0 0 10px 10px;
 }
 
+.carousel-control {
+    background-image:url(images/menu_icons.png);
+    width: 52px;
+    height: 38px;
+    font-weight: bold;
+    color: #fff;
+    background-color: inherit;
+    border: 0 none;
+    opacity: 1;
+    border-radius: 0;
+    padding: 8px 0px 0 28px;
+    font-size: 16px;
+    background-position: -20px -214px;
+    text-decoration: none;
+    text-align: left;
+    top:44%;
+    display:block;
+
+    -webkit-transition: opacity 0.25s ease-in-out 0s;
+    -moz-transition: opacity 0.25s ease-in-out 0s;
+    -o-transition: opacity 0.25s ease-in-out 0s;
+    -ms-transition: opacity 0.25s ease-in-out 0s;
+    transition: opacity 0.25s ease-in-out 0s;
+}
+.carousel-control:hover {
+    opacity: 1;
+    text-decoration: none;
+    background-position: -20px -266px;
+}
 .carousel-control.right {
-	right:15px;
+    right:0px;
+}
+.carousel-control.left {
+    text-indent: -500px;
+    background-position: 0px -317px;
+    left: 0px;
+    width: 8px;
+}
+.carousel-control.left:hover {
+    background-position: 0px -369px;
+}
+.carousel-control.hide {
+    opacity:0;
 }
 
 .carousel_caption {

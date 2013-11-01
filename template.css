@@ -186,8 +186,7 @@ ul.nav li a:hover,
 	overflow:hidden;
 }
 
-#footer_navigation .pager li a,
-.carousel-control {
+#footer_navigation .pager li a {
 	background-image:url(images/menu_icons.png);
 	background-position: 0 -68px;
     background-repeat: no-repeat;
@@ -196,27 +195,17 @@ ul.nav li a:hover,
 	width:20px;
 	height:30px;
 }
-.carousel-control {
-	width:40px;
-	height:42px;
-	background-color: inherit;
-	border:0;
-	opacity:1;
-}
-#footer_navigation .pager li a:hover, 
-.carousel-control:hover {
+#footer_navigation .pager li a:hover {
 	background-position: 0 -107px;
 }
 #footer_navigation .pager li a i {
 	position:absolute;
 	left:-5000px;
 }
-#footer_navigation .pager li a.next,
-.carousel-control.right {
+#footer_navigation .pager li a.next {
 	background-position: -40px -68px;
 }
-#footer_navigation .pager li a.next:hover,
-.carousel-control.right:hover {
+#footer_navigation .pager li a.next:hover {
 	background-position: -40px -107px;
 }
 
