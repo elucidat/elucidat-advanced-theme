@@ -157,7 +157,7 @@ ul.nav li a:hover,
 /* footer navigation */
 /* footer navigation */
 #footer_navigation {
-	background-image:url(images/menu_icons.png);
+	background-image:url(images/menu_icons_2.png);
 	background-position: 0 -154px;
     background-repeat: repeat-x;
     bottom: 0;
@@ -187,7 +187,7 @@ ul.nav li a:hover,
 }
 
 #footer_navigation .pager li a {
-	background-image:url(images/menu_icons.png);
+	background-image:url(images/menu_icons_2.png);
 	background-position: 0 -68px;
     background-repeat: no-repeat;
 	text-indent: -5000px;
@@ -216,7 +216,7 @@ ul.nav li a:hover,
 	opacity: 0.3;
 }
 #footer_navigation .pager li.status {
-	background-image:url(images/menu_icons.png);
+	background-image:url(images/menu_icons_2.png);
 	background-position: 0 -23px;
     background-repeat: no-repeat;
     color: #FFFFFF;
@@ -248,7 +248,7 @@ ul.nav li a:hover,
 	text-decoration: none;
 }
 #help_buttons a i {
-	background-image:url(images/menu_icons.png);
+	background-image:url(images/menu_icons_2.png);
 	background-position: 0 -2px;
     background-repeat: no-repeat;
     height: 24px;
