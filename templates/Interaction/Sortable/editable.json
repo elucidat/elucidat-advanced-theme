@@ -1,0 +1,55 @@
+{
+	"#text_content": {
+		"text": {
+			"html": true
+		},
+		"inset": true
+	},
+	".sortable":{
+		"add-option": true,
+		"resize": true,
+		"color": true,
+		"image": {
+			"show-placeholder": false
+		}
+	},
+	".sort_item": {
+		"animation":true,
+		"font": {
+			"size":true
+		},
+		"text": true,
+		"border": true,
+		"image": {
+			"show-placeholder": false
+		},
+		"color": true,
+		"resize": true,
+		"delete": true
+	},
+	"#save_button": {
+		"animation":true,
+		"text": true,
+		"color": true,
+		"resize": true,
+		"font": {
+			"size": true
+		}
+	},
+	".popup_image": {
+		"image": true,
+		"resize": true,
+		"inset": true,
+		"delete": true
+	},
+	".popup_text": {
+		"text": {
+			"html": true
+		},
+		"inset":true,
+		"resize": true
+	},
+	".modal-header h3": {
+		"text": true
+	}
+}

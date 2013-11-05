@@ -1,0 +1,66 @@
+{
+	"#text_content": {
+		"text": {
+			"html": true
+		},
+		"inset": true
+	},
+	"#dropper_wrapper":{
+		"add-option": true,
+		"resize": true,
+		"color": true,
+		"border": true,
+		"image": {
+			"show-placeholder": false
+		}
+	},
+	".dropper": {
+		"font": true,
+		"text": true,
+		"resize": true,
+		"image": {
+			"show-placeholder": false
+		},
+		"color": true,
+		"border": true,
+		"delete": true,
+		"move": true,
+		"drop-target": true
+	},
+	".dropbox": {
+		"text": true,
+		"color": true,
+		"delete": true,
+		"border": true,
+		"font": true,
+		"image": {
+			"show-placeholder": false
+		},
+		"resize": true
+	},
+	"#save_button": {
+		"animation":true,
+		"text": true,
+		"color": true,
+		"resize": true,
+		"font": {
+			"size": true
+		}
+	},
+	".popup_image": {
+		"image": true,
+		"resize": true,
+		"inset": true,
+		"delete": true
+	},
+	".popup_text": {
+		"text": {
+			"html": true
+		},
+		"inset":true,
+		"resize": true
+	},
+	".modal-header h3": {
+		"text": true
+	}
+}

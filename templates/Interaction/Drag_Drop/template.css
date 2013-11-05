@@ -1,0 +1,109 @@
+
+
+#text_wrapper {
+    padding:20px;
+}
+form {
+    clear:both;
+}
+#dropper_wrapper {
+    background-color:#f1f1f1;
+    height:100px;
+    margin-bottom:15px;
+    position: relative;
+}
+.dropper {
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    background-color: rgba(225, 225, 225, 0.75);
+    border-radius: 10px 10px 10px 10px;
+    color: #000;
+    padding: 7px 24px 4px;
+    width:100px;
+    height:25px;
+    text-decoration: none;
+    opacity:1;
+}
+.dropper:hover {
+    text-decoration: none;
+    opacity:1;
+}
+#dropper_1 {
+    left:10px;
+    top:30px;
+}
+#dropper_2 {
+    left:200px;
+    top:10px;
+}
+#dropper_3 {
+    left:350px;
+    top:40px;
+}
+#dropbox_holder {
+    margin-left:-15px;
+}
+.dropbox {
+    float:left;
+    width:225px;
+    padding:100px 30px 0;
+    height:150px;
+    text-align: center;
+    color:#999;
+    background-color:#f1f1f1;
+    margin-left:15px;
+}
+.button_wrapper {
+    clear:both;
+}
+#save_button {
+    position: relative;
+    display:inline-block;
+    bottom: 0;
+    right: 0;
+    margin-top:15px;
+}
+
+
+button#add_option_button {
+    top:10px;
+}
+
+
+@media (max-width: 979px) and (min-width: 768px) {
+    .dropbox {
+        width: 155px;
+    }
+}
+@media (max-width: 767px) {
+    #dropper_wrapper {
+        height:160px;
+    }
+    .dropbox {
+        float:none;
+        width:auto;
+        height:80px;
+        margin-bottom:15px;
+        padding-top:60px;
+    }
+    #save_button {
+        margin-top:0px;
+    }
+    #dropper_1 {
+        left:10px;
+        top:10px;
+    }
+    #dropper_2 {
+        left:10px;
+        top:55px;
+    }
+    #dropper_3 {
+        left:10px;
+        top:100px;
+    }
+
+}
+@media (max-width: 480px) {
+
+}

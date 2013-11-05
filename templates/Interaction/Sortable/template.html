@@ -1,0 +1,76 @@
+
+        <div id="text_wrapper">
+            <div id="text_content">
+                <p>This Sortable template allows you to assess how the learner is getting on.</p>
+            </div>
+
+            <form class="sortable">
+
+                <div class="add-option-template hide" data-parent="#sort_menu">
+                    <li class="sort_item" id="sortable_{id}">Option {number}</li>
+                </div>
+
+                <ol id="sort_menu">
+                    <li class="sort_item" id="sortable_1">Option 1</li>
+                    <li class="sort_item" id="sortable_2">Option 2</li>
+                    <li class="sort_item" id="sortable_3">Option 3</li>
+                </ol>
+
+                <a class="save_button" id="save_button">Submit</a>
+
+                <div id="correct" class="modal hide fade answered_correct" tabindex="-1" role="dialog" aria-labelledby="correct_label" aria-hidden="true">
+                    <div class="modal-container">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                            <h3 id="correct_label">Correct!</h3>
+                        </div>
+                        <div class="modal-body left_image clearfix">
+                            <div class="popup_image" id="correct_image"></div>
+                            <div class="popup_text" id="correct_text">
+                                <p><strong>This is an ideal place</strong> to put some text to introduce your learning topic. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="partially_correct" class="modal hide fade answered_partially_correct" tabindex="-1" role="dialog" aria-labelledby="partially_correct_label" aria-hidden="true">
+                    <div class="modal-container">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                            <h3 id="partially_correct_label">Partially correct!</h3>
+                        </div>
+                        <div class="modal-body left_image clearfix">
+                            <div class="popup_image" id="partially_correct_image"></div>
+                            <div class="popup_text" id="partially_correct_text">
+                                <p><strong>This is an ideal place</strong> to put some text to introduce your learning topic. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="wrong" class="modal hide fade answered_incorrect" tabindex="-1" role="dialog" aria-labelledby="wrong_label" aria-hidden="true">
+                    <div class="modal-container">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                            <h3 id="wrong_label">Wrong!</h3>
+                        </div>
+                        <div class="modal-body clearfix">
+                            <div class="popup_image" id="wrong_image"></div>
+                            <div class="popup_text" id="wrong_text">
+                                <p><strong>This is an ideal place</strong> to put some text to introduce your learning topic. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
