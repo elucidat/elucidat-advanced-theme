@@ -4,6 +4,7 @@
 	position:relative;
 }
 #overlay {
+    background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px 10px 10px 10px;
     color: #FFFFFF;

@@ -7,6 +7,7 @@ form {
 }
 
 .text_box, #text_intro {
+    background-color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 10px 10px 10px 10px;
     color: #000;
@@ -19,7 +20,7 @@ form {
     margin-right: 0;
 }
 #text_intro {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255);
     padding:14px 20px 5px;
     left: 20px;
     top: 20px;
