@@ -11,6 +11,7 @@
 		"text": {
 			"html": true
 		}, 
-		"resize": true
+		"resize": true,
+		"inset": true
 	}
 }

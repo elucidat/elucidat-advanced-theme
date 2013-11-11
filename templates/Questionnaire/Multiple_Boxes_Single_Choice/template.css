@@ -25,6 +25,9 @@ form {
     left: 20px;
     top: 20px;
 }
+.answer {
+    -webkit-transform: translate3D(0,0,0);
+}
 #answer_1 {
     top:100px;
     left:50px;
@@ -56,6 +59,7 @@ label {
     border-radius: 0 0 10px 10px;
     position: relative;
 }
+
 .button_wrapper {
     padding-top: 0;
 }
