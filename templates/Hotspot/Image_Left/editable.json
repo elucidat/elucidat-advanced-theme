@@ -7,6 +7,9 @@
 		"delete": true,
 		"border": true,
 		"move": true,
+		"image": {
+			"show-placeholder": false
+		},
 		"color": true
 	},
 	".modal-header h3": {

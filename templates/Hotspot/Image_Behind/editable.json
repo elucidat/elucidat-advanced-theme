@@ -4,6 +4,9 @@
 	},
 	".hotspot": {
 		"resize": true,
+		"image": {
+			"show-placeholder": false
+		},
 		"delete": true,
 		"border": true,
 		"move": true,
