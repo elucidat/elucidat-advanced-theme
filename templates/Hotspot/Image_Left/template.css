@@ -66,3 +66,10 @@
     top:50px;
 }
 
+
+/* hotspots */
+button#add_option_button {
+    position:absolute;
+    left:20px;
+    top:20px;
+}
