@@ -7,6 +7,9 @@ a:hover {
 	opacity:0.7;
 	text-decoration: underline;
 }
+a:focus {
+	outline:none;
+}
 /* fix for colouring links */
 a span {
 	text-decoration: underline;
@@ -58,6 +61,13 @@ ul.nav li a:hover,
 }
 #project_navigation.open {
 	left:0px;
+}
+#project_navigation #scroller {
+	height:100%;
+	overflow:auto;
+}
+#project_navigation #scroller_inner {
+	padding-bottom: 60px;
 }
 
 #project_navigation ul {
