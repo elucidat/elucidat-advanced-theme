@@ -64,6 +64,7 @@ ul.nav li {
 		float:none;
 		border-right:0;
 		margin-right: 0;
+		min-height: 0;
 	}
 	html ul.nav li a {
 		border:0;
