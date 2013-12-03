@@ -1,0 +1,40 @@
+{
+	"#text_content": {
+		"text": {
+			"html": true
+		}
+	},
+	"#buildup": {
+		"add-option": true
+	},
+	".build-up-follow-on": {
+		"delete": true,
+		"image": {
+			"show-placeholder":false
+		},
+		"resize": true,
+		"color": true,
+		"font": true,
+		"border": true
+	},
+	"#buildup_1": {
+		"image": {
+			"show-placeholder":false
+		},
+		"resize": true,
+		"color": true,
+		"font": true,
+		"border": true
+	},
+	".image": {
+		"delete": true,
+		"image": true,
+		"resize": true,
+		"inset": true
+	},
+	".text_content": {
+		"text": {
+			"html": true
+		}
+	}
+}
