@@ -50,7 +50,7 @@ ul.nav li a:hover,
 	left:-420px;
 	background: rgb(0,0,0);
 	background: rgba(0,0,0,0.8);
-	z-index:100;
+	z-index:1000;
 	font-size:1em;
 	
 	-webkit-transition: 0.5s ease-in-out;
@@ -176,7 +176,7 @@ ul.nav li a:hover,
     left: 0;
     position: fixed;
     width: 100%;
-    z-index: 200;
+    z-index: 1010;
 }
 #footer_navigation .container {
 	position:relative;
