@@ -113,13 +113,11 @@ ul.nav li a:hover,
 
 }
 #project_navigation li li {
-
 	padding:2px 0 0 0px;
 	margin:0px;
 	color:#fff;
-
 }
-#project_navigation li.active, #project_navigation li.completed  {
+#project_navigation li.active, #project_navigation li.completed, #project_navigation li.section_active  {
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	filter: alpha(opacity=100);
 	-moz-opacity:1;
