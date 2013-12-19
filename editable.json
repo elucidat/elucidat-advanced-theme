@@ -2,7 +2,9 @@
 	"body": {
 		"animation":true,
 		"color":true,
-		"image":true,
+		"image": {
+			"show-placeholder": false
+		},
 		"font":{
 			"family":true,
 			"size":true
