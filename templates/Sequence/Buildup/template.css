@@ -21,6 +21,7 @@
     background-color:#f1f1f1;
 	padding:15px;
 	overflow: visible;
+	position: relative;
 
 	-webkit-transition: 0.5s ease-in-out;
 	-moz-transition: 0.5s ease-in-out;
