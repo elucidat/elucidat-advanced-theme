@@ -39,6 +39,9 @@
 		"text": {
 			"html": true
 		},
+		"font":{
+			"size":true
+		},
 		"inset":true,
 		"resize": true
 	},

@@ -44,6 +44,9 @@
 		"text": {
 			"html":true
 		},
+		"font":{
+			"size":true
+		},
 		"inset":true
 	},
 	"h3#resourceContentLabel":{
@@ -52,6 +55,9 @@
 	"#resource_content": {
 		"text": {
 			"html":true
+		},
+		"font":{
+			"size":true
 		},
 		"inset":true
 	},
