@@ -11,9 +11,9 @@
                     <form class="questionnaire">
                         <div id="questionnaire_wrapper" class="clearfix">
                             <div class="add-option-template hide">
-                                <div id="answer_{id}" class="answer">
-                                    <span class="input">checkbox:checkbox_{id}</span>
-                                    <label for="checkbox_{id}">Answer {number}</label>
+                                <div id="answer_{{element.id}}" class="answer">
+                                    <span class="input">checkbox:checkbox_{{element.id}}</span>
+                                    <label for="checkbox_{{element.id}}">Answer {{element.number}}</label>
                                 </div>
                             </div>
                             <div id="answer_1" class="answer">

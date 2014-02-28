@@ -4,18 +4,18 @@
             <div id="hotspot_wrapper">
                     
                 <div class="add-option-template hide" data-parent="#hotspot_image">
-                    <a class="hotspot" id="hotspot{id}" data-toggle="modal" href="#hotspot_modal_{id}"></a>
+                    <a class="hotspot" id="hotspot{{element.id}}" data-toggle="modal" href="#hotspot_modal_{{element.id}}"></a>
                 </div>
 
                 <div class="add-option-template hide" data-parent="#hotspot_modal_wrapper">
-                    <div id="hotspot_modal_{id}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="hotspot_modal_{id}_label" aria-hidden="true">
+                    <div id="hotspot_modal_{{element.id}}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="hotspot_modal_{{element.id}}_label" aria-hidden="true">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-                            <h3 id="hotspot_modal_{id}_label">Hotspot title {number}</h3>
+                            <h3 id="hotspot_modal_{{element.id}}_label">Hotspot title {{element.number}}</h3>
                         </div>
                         <div class="modal-body clearfix">
-                            <div class="popup_image" id="hotspot_modal_{id}_image"></div>
-                            <div class="popup_text" id="hotspot_modal_{id}_text">
+                            <div class="popup_image" id="hotspot_modal_{{element.id}}_image"></div>
+                            <div class="popup_text" id="hotspot_modal_{{element.id}}_text">
                                 <p><strong>This is an ideal place</strong> to put some text to introduce your learning topic. Enter as much or as little text here as you want. </p><p>Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                             </div>
                         </div>
