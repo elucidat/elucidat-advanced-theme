@@ -11,16 +11,16 @@
                     <div class="accordion" id="accordion">
                         
                         <div class="add-option-template hide">
-                            <div class="accordion-group" id="accordian_item_{id}">
+                            <div class="accordion-group" id="accordian_item_{{element.id}}">
                                 <div class="accordion-heading">
-                                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse{id}" id="accordian_collapse_heading{id}">
-                                        Title of section {number}
+                                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse{{element.id}}" id="accordian_collapse_heading{{element.id}}">
+                                        Title of section {{element.number}}
                                     </a>
                                 </div>
-                                <div id="collapse{id}" class="accordion-body collapse">
+                                <div id="collapse{{element.id}}" class="accordion-body collapse">
                                     <div class="accordion-inner">
-                                        <div id="image_{id}" class="image">&nbsp;</div>
-                                        <div id="accordian_collapse_content{id}" class="text_content">
+                                        <div id="image_{{element.id}}" class="image">&nbsp;</div>
+                                        <div id="accordian_collapse_content{{element.id}}" class="text_content">
                                             <p>This is an ideal place to enrich your learner's understanding of your topic. Enter as much or as little text here as you want. <br />Simply press on the <span class="badge badge-inverse toggle"><i class="icon-edit icon-white"></i></span> icon above to edit the text.</p>
                                         </div>
                                     </div>

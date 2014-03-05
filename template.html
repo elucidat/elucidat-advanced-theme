@@ -6,7 +6,7 @@
                     <div id="project_header">
                         <div id="project_logo">&nbsp;</div>
                         <div id="project_title">
-                            <h1>{project.name}</h1>
+                            <h1>{{project.name}}</h1>
                         </div>
                     </div>
                 </div>
@@ -15,11 +15,11 @@
             <div class="row-fluid page_outer">
                 <div id="page_title_holder" class="span12">    
                     <div id="page_title" class="span10">
-                        <h2 data-role="page.name">{page.name}</h2>
+                        <h2 data-role="page.name">{{page.name}}</h2>
                     </div>
                 </div>
                 <div id="page_wrapper" class="span12">
-                    {page.html}
+                    {{page.html}}
                 </div> 
             </div>
         </div>
@@ -37,12 +37,12 @@
                 </div>
 
                 <ul class="pager">
-                    <li class="{previous.disabled}" data-role="pager-previous">
-                        <a href="{previous.url}" title="Back to the previous page"><i class="icon-chevron-left icon-white"></i></a>
+                    <li class="{{previous.disabled}}" data-role="pager-previous">
+                        <a href="{{previous.url}}" title="Back to the previous page"><i class="icon-chevron-left icon-white"></i></a>
                     </li>
-                    <li class="status" data-role="pager-status">{navigation.current} of {navigation.total}</li>
-                    <li class="{next.disabled}" data-role="pager-next">
-                        <a href="{next.url}" class="next" title="Progress to the next page"><i class="icon-chevron-right icon-white"></i></a>
+                    <li class="status" data-role="pager-status">{{navigation.current}} of {{navigation.total}}</li>
+                    <li class="{{next.disabled}}" data-role="pager-next">
+                        <a href="{{next.url}}" class="next" title="Progress to the next page"><i class="icon-chevron-right icon-white"></i></a>
                     </li>
                 </ul>
             </div>
@@ -51,7 +51,7 @@
             <div id="scroller">
                 <div id="scroller_inner">
                     <ul data-role="navigation">
-                        {navigation.html}
+                        {{navigation.html}}
                     </ul>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                     </div>
                     <div id="resource_navigation">
                         <ul>
-                        {resources.html}
+                        {{resources.html}}
                         </ul>
                     </div>
                 </div>
